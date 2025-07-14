@@ -658,7 +658,7 @@ let details = [
   },
   {
     "id": "74",
-    "pic": "/rogni.jpg",
+    "pic": "/Rogni.jpg",
     "title": "Special Milky Rogni Naan",
     "genre": "Rogni Naan",
     "address": "Haq Bahu Naan Shop",
@@ -667,7 +667,7 @@ let details = [
   },
   {
     "id": "75",
-    "pic": "/rogni.jpg",
+    "pic": "/Rogni.jpg",
     "title": "Half Rogni Naan",
     "genre": "Rogni Naan",
     "address": "Haq Bahu Naan Shop",
