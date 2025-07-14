@@ -1,7 +1,7 @@
 let details = [
   {
     "id": "1",
-    "pic": "/special.jpg",
+    "pic": "/Nutella.jpg",
     "title": "Nutella Naan",
     "genre": "Special Items",
     "address": "Haq Bahu Naan Shop",
@@ -10,7 +10,7 @@ let details = [
   },
   {
     "id": "2",
-    "pic": "/special.jpg",
+    "pic": "/pizza_naan.jpg",
     "title": "Tandoori Pizza",
     "genre": "Special Items",
     "address": "Haq Bahu Naan Shop",
@@ -19,8 +19,8 @@ let details = [
   },
   {
     "id": "3",
-    "pic": "/special.jpg",
-    "title": "Tandoori Shwarma",
+    "pic": "/shawarma.jpg",
+    "title": "Tandoori Shawarma",
     "genre": "Special Items",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
@@ -28,7 +28,7 @@ let details = [
   },
   {
     "id": "4",
-    "pic": "/special.jpg",
+    "pic": "/cheese.jpg",
     "title": "Cheese Naan",
     "genre": "Special Items",
     "address": "Haq Bahu Naan Shop",
@@ -37,7 +37,7 @@ let details = [
   },
   {
     "id": "5",
-    "pic": "/mutton.jpg",
+    "pic": "/beef paratha naan .jpg",
     "title": "Special Mutton Achaari Naan",
     "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
@@ -46,7 +46,7 @@ let details = [
   },
   {
     "id": "6",
-    "pic": "/mutton.jpg",
+    "pic": "/beef paratha naan .jpg",
     "title": "Special Mutton Qeema Naan",
     "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
@@ -55,7 +55,7 @@ let details = [
   },
   {
     "id": "7",
-    "pic": "/mutton.jpg",
+    "pic": "/beef paratha naan .jpg",
     "title": "Special Mutton Cheese Makhan Rogni Naan",
     "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
@@ -64,7 +64,7 @@ let details = [
   },
   {
     "id": "8",
-    "pic": "/mutton.jpg",
+    "pic": "/beef paratha naan .jpg",
     "title": "Special Mutton Achaari Makhan Rogni Naan",
     "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
@@ -73,7 +73,7 @@ let details = [
   },
   {
     "id": "9",
-    "pic": "/mutton.jpg",
+    "pic": "/beef paratha naan .jpg",
     "title": "Special Mutton Makhan Rogni Naan",
     "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
@@ -82,7 +82,7 @@ let details = [
   },
   {
     "id": "10",
-    "pic": "/mutton.jpg",
+    "pic": "/beef paratha naan .jpg",
     "title": "Special Mutton Cheese Rogni Naan",
     "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
@@ -91,7 +91,7 @@ let details = [
   },
   {
     "id": "11",
-    "pic": "/mutton.jpg",
+    "pic": "/beef paratha naan .jpg",
     "title": "Special Mutton Achaari Rogni Naan",
     "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
@@ -100,7 +100,7 @@ let details = [
   },
   {
     "id": "12",
-    "pic": "/mutton.jpg",
+    "pic": "/beef paratha naan .jpg",
     "title": "Special Mutton Rogni Naan",
     "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
@@ -109,7 +109,7 @@ let details = [
   },
   {
     "id": "13",
-    "pic": "/mutton.jpg",
+    "pic": "/beef paratha naan .jpg",
     "title": "Special Mutton Cheese Makhan Naan",
     "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
@@ -118,7 +118,7 @@ let details = [
   },
   {
     "id": "14",
-    "pic": "/mutton.jpg",
+    "pic": "/beef paratha naan .jpg",
     "title": "Special Mutton Achaari Makhan Rogni Naan",
     "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
@@ -127,7 +127,7 @@ let details = [
   },
   {
     "id": "15",
-    "pic": "/mutton.jpg",
+    "pic": "/beef paratha naan .jpg",
     "title": "Special Mutton Makhan Rogni Naan",
     "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
@@ -136,7 +136,7 @@ let details = [
   },
   {
     "id": "16",
-    "pic": "/mutton.jpg",
+    "pic": "/beef paratha naan .jpg",
     "title": "Special Mutton Cheese Naan",
     "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
@@ -145,7 +145,7 @@ let details = [
   },
   {
     "id": "17",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Special Chicken Cheese Makhan Rogni Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -154,7 +154,7 @@ let details = [
   },
   {
     "id": "18",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Special Chicken Achaari Makhan Rogni Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -163,7 +163,7 @@ let details = [
   },
   {
     "id": "19",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Special Chicken Makhan Rogni Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -172,7 +172,7 @@ let details = [
   },
   {
     "id": "20",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Chicken Cheese Makhan Rogni Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -181,7 +181,7 @@ let details = [
   },
   {
     "id": "21",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Chicken Achaari Makhan Rogni Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -190,7 +190,7 @@ let details = [
   },
   {
     "id": "22",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Chicken Makhan Rogni Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -199,7 +199,7 @@ let details = [
   },
   {
     "id": "23",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Special Chicken Cheese Rogni Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -208,7 +208,7 @@ let details = [
   },
   {
     "id": "24",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Special Chicken Achaari Rogni Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -217,7 +217,7 @@ let details = [
   },
   {
     "id": "25",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Special Chicken Rogni Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -226,7 +226,7 @@ let details = [
   },
   {
     "id": "26",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Chicken Cheese Rogni Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -235,7 +235,7 @@ let details = [
   },
   {
     "id": "27",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Chicken Achaari Rogni Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -244,7 +244,7 @@ let details = [
   },
   {
     "id": "28",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Chicken Rogni Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -253,7 +253,7 @@ let details = [
   },
   {
     "id": "29",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Special Chicken Cheese Makhan Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -262,7 +262,7 @@ let details = [
   },
   {
     "id": "30",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Special Chicken Achaari Makhan Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -271,7 +271,7 @@ let details = [
   },
   {
     "id": "31",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Special Chicken Makhan Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -280,7 +280,7 @@ let details = [
   },
   {
     "id": "32",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Chicken Cheese Makhan Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -289,7 +289,7 @@ let details = [
   },
   {
     "id": "33",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Chicken Achaari Makhan Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -298,7 +298,7 @@ let details = [
   },
   {
     "id": "34",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Chicken Makhan Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -307,7 +307,7 @@ let details = [
   },
   {
     "id": "35",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Special Chicken Cheese Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -316,7 +316,7 @@ let details = [
   },
   {
     "id": "36",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Special Chicken Achaari Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -325,7 +325,7 @@ let details = [
   },
   {
     "id": "37",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Special Chicken Qeema Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -334,7 +334,7 @@ let details = [
   },
   {
     "id": "38",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Chicken Cheese Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -343,7 +343,7 @@ let details = [
   },
   {
     "id": "39",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Chicken Achaari Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -352,7 +352,7 @@ let details = [
   },
   {
     "id": "40",
-    "pic": "/chicken.jpg",
+    "pic": "/chicken naan.jpg",
     "title": "Chicken Qeema Naan",
     "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
@@ -361,7 +361,7 @@ let details = [
   },
   {
     "id": "41",
-    "pic": "/beef.jpg",
+    "pic": "/beef2.jpg",
     "title": "Special Beef Cheese Makhan Rogni Naan",
     "genre": "Beef Qeema Naan",
     "address": "Haq Bahu Naan Shop",
@@ -379,7 +379,7 @@ let details = [
   },
   {
     "id": "43",
-    "pic": "/beef.jpg",
+    "pic": "/beef2.jpg",
     "title": "Special Beef Makhan Rogni Naan",
     "genre": "Beef Qeema Naan",
     "address": "Haq Bahu Naan Shop",
@@ -388,7 +388,7 @@ let details = [
   },
   {
     "id": "44",
-    "pic": "/beef.jpg",
+    "pic": "/beef2.jpg",
     "title": "Beef Cheese Makhan Rogni Naan",
     "genre": "Beef Qeema Naan",
     "address": "Haq Bahu Naan Shop",
@@ -406,7 +406,7 @@ let details = [
   },
   {
     "id": "46",
-    "pic": "/beef.jpg",
+    "pic": "/beef2.jpg",
     "title": "Beef Makhan Rogni Naan",
     "genre": "Beef Qeema Naan",
     "address": "Haq Bahu Naan Shop",
@@ -415,7 +415,7 @@ let details = [
   },
   {
     "id": "47",
-    "pic": "/beef.jpg",
+    "pic": "/beef2.jpg",
     "title": "Special Beef Cheese Rogni Naan",
     "genre": "Beef Qeema Naan",
     "address": "Haq Bahu Naan Shop",
@@ -433,7 +433,7 @@ let details = [
   },
   {
     "id": "49",
-    "pic": "/beef.jpg",
+    "pic": "/beef2.jpg",
     "title": "Special Beef Rogni Naan",
     "genre": "Beef Qeema Naan",
     "address": "Haq Bahu Naan Shop",
@@ -442,7 +442,7 @@ let details = [
   },
   {
     "id": "50",
-    "pic": "/beef.jpg",
+    "pic": "/beef2.jpg",
     "title": "Beef Cheese Rogni Naan",
     "genre": "Beef Qeema Naan",
     "address": "Haq Bahu Naan Shop",
@@ -460,7 +460,7 @@ let details = [
   },
   {
     "id": "52",
-    "pic": "/beef.jpg",
+    "pic": "/beef2.jpg",
     "title": "Beef Rogni Naan",
     "genre": "Beef Qeema Naan",
     "address": "Haq Bahu Naan Shop",
@@ -469,7 +469,7 @@ let details = [
   },
   {
     "id": "53",
-    "pic": "/beef.jpg",
+    "pic": "/beef2.jpg",
     "title": "Special Beef Cheese Makhan Naan",
     "genre": "Beef Qeema Naan",
     "address": "Haq Bahu Naan Shop",
@@ -487,7 +487,7 @@ let details = [
   },
   {
     "id": "55",
-    "pic": "/beef.jpg",
+    "pic": "/beef2.jpg",
     "title": "Special Beef Makhan Naan",
     "genre": "Beef Qeema Naan",
     "address": "Haq Bahu Naan Shop",
@@ -496,7 +496,7 @@ let details = [
   },
   {
     "id": "56",
-    "pic": "/beef.jpg",
+    "pic": "/beef2.jpg",
     "title": "Beef Cheese Makhan Naan",
     "genre": "Beef Qeema Naan",
     "address": "Haq Bahu Naan Shop",
@@ -514,7 +514,7 @@ let details = [
   },
   {
     "id": "58",
-    "pic": "/beef.jpg",
+    "pic": "/beef2.jpg",
     "title": "Beef Makhan Naan",
     "genre": "Beef Qeema Naan",
     "address": "Haq Bahu Naan Shop",
@@ -523,7 +523,7 @@ let details = [
   },
   {
     "id": "59",
-    "pic": "/beef.jpg",
+    "pic": "/beef2.jpg",
     "title": "Special Beef Cheese Naan",
     "genre": "Beef Qeema Naan",
     "address": "Haq Bahu Naan Shop",
@@ -541,7 +541,7 @@ let details = [
   },
   {
     "id": "61",
-    "pic": "/beef.jpg",
+    "pic": "/qeema.jpg",
     "title": "Special Beef Qeema Naan",
     "genre": "Beef Qeema Naan",
     "address": "Haq Bahu Naan Shop",
@@ -550,7 +550,7 @@ let details = [
   },
   {
     "id": "62",
-    "pic": "/beef.jpg",
+    "pic": "/qeema.jpg",
     "title": "Beef Cheese Naan",
     "genre": "Beef Qeema Naan",
     "address": "Haq Bahu Naan Shop",
@@ -568,7 +568,7 @@ let details = [
   },
   {
     "id": "64",
-    "pic": "/beef.jpg",
+    "pic": "/beef2.jpg",
     "title": "Beef Qeema Naan",
     "genre": "Beef Qeema Naan",
     "address": "Haq Bahu Naan Shop",
@@ -586,7 +586,7 @@ let details = [
   },
   {
     "id": "66",
-    "pic": "/rogni.jpg",
+    "pic": "/kalwanji.jpg",
     "title": "Special Kalwangi Rogni Naan",
     "genre": "Rogni Naan",
     "address": "Haq Bahu Naan Shop",
@@ -595,7 +595,7 @@ let details = [
   },
   {
     "id": "67",
-    "pic": "/rogni.jpg",
+    "pic": "/zeera.jpg",
     "title": "Special Zeree Wala Rogni Naan",
     "genre": "Rogni Naan",
     "address": "Haq Bahu Naan Shop",
@@ -604,7 +604,7 @@ let details = [
   },
   {
     "id": "68",
-    "pic": "/rogni.jpg",
+    "pic": "/kulcha.jpg",
     "title": "Special Till Wala Rogni Naan",
     "genre": "Rogni Naan",
     "address": "Haq Bahu Naan Shop",
@@ -613,7 +613,7 @@ let details = [
   },
   {
     "id": "69",
-    "pic": "/rogni.jpg",
+    "pic": "/garlic.jpg",
     "title": "Special Garlic Makhan Rogni Naan",
     "genre": "Rogni Naan",
     "address": "Haq Bahu Naan Shop",
@@ -622,7 +622,7 @@ let details = [
   },
   {
     "id": "70",
-    "pic": "/rogni.jpg",
+    "pic": "/kalwanji.jpg",
     "title": "Special Kalwangi Makhan Rogni Naan",
     "genre": "Rogni Naan",
     "address": "Haq Bahu Naan Shop",
@@ -631,7 +631,7 @@ let details = [
   },
   {
     "id": "71",
-    "pic": "/rogni.jpg",
+    "pic": "/zeera.jpg",
     "title": "Special Zeree Wala Rogni Naan",
     "genre": "Rogni Naan",
     "address": "Haq Bahu Naan Shop",
@@ -640,7 +640,7 @@ let details = [
   },
   {
     "id": "72",
-    "pic": "/rogni.jpg",
+    "pic": "/kulcha.jpg",
     "title": "Special Till Wala Rogni Naan",
     "genre": "Rogni Naan",
     "address": "Haq Bahu Naan Shop",
@@ -649,7 +649,7 @@ let details = [
   },
   {
     "id": "73",
-    "pic": "/rogni.jpg",
+    "pic": "/garlic.jpg",
     "title": "Special Garlic Rogni Naan",
     "genre": "Rogni Naan",
     "address": "Haq Bahu Naan Shop",
@@ -676,7 +676,7 @@ let details = [
   },
   {
     "id": "76",
-    "pic": "/aloo.jpg",
+    "pic": "/alooo nan.jpg",
     "title": "Special Aloo Wala Naan",
     "genre": "Aloo Wala Naan",
     "address": "Haq Bahu Naan Shop",
@@ -685,7 +685,7 @@ let details = [
   },
   {
     "id": "77",
-    "pic": "/aloo.jpg",
+    "pic": "/alooo nan.jpg",
     "title": "Aloo Wala Naan",
     "genre": "Aloo Wala Naan",
     "address": "Haq Bahu Naan Shop",
@@ -694,7 +694,7 @@ let details = [
   },
   {
     "id": "78",
-    "pic": "/aloo.jpg",
+    "pic": "/alooo nan.jpg",
     "title": "Special Aloo Makhan Cheese Naan",
     "genre": "Aloo Wala Naan",
     "address": "Haq Bahu Naan Shop",
@@ -703,7 +703,7 @@ let details = [
   },
   {
     "id": "79",
-    "pic": "/aloo.jpg",
+    "pic": "/beef.jpg",
     "title": "Special Aloo Makhan Achaari Naan",
     "genre": "Aloo Wala Naan",
     "address": "Haq Bahu Naan Shop",
@@ -712,7 +712,7 @@ let details = [
   },
   {
     "id": "80",
-    "pic": "/aloo.jpg",
+    "pic": "/alooo nan.jpg",
     "title": "Special Aloo Makhan Naan",
     "genre": "Aloo Wala Naan",
     "address": "Haq Bahu Naan Shop",
@@ -721,7 +721,7 @@ let details = [
   },
   {
     "id": "81",
-    "pic": "/aloo.jpg",
+    "pic": "/alooo nan.jpg",
     "title": "Special Aloo Cheese Naan",
     "genre": "Aloo Wala Naan",
     "address": "Haq Bahu Naan Shop",
@@ -730,7 +730,7 @@ let details = [
   },
   {
     "id": "82",
-    "pic": "/aloo.jpg",
+    "pic": "/beef.jpg",
     "title": "Special Aloo Achaari Naan",
     "genre": "Aloo Wala Naan",
     "address": "Haq Bahu Naan Shop",
@@ -739,7 +739,7 @@ let details = [
   },
   {
     "id": "83",
-    "pic": "/besaan.jpg",
+    "pic": "/baisan.jpg",
     "title": "Besaan Wala Naan",
     "genre": "Besaan Wala Naan",
     "address": "Haq Bahu Naan Shop",
@@ -748,7 +748,7 @@ let details = [
   },
   {
     "id": "84",
-    "pic": "/besaan.jpg",
+    "pic": "/beef.jpg",
     "title": "Besaan Achaari Naan",
     "genre": "Besaan Wala Naan",
     "address": "Haq Bahu Naan Shop",
@@ -757,7 +757,7 @@ let details = [
   },
   {
     "id": "85",
-    "pic": "/besaan.jpg",
+    "pic": "/baisan.jpg",
     "title": "Special Besaan Makhan Naan",
     "genre": "Besaan Wala Naan",
     "address": "Haq Bahu Naan Shop",
@@ -766,7 +766,7 @@ let details = [
   },
   {
     "id": "86",
-    "pic": "/tikka.jpg",
+    "pic": "/shawarma.jpg",
     "title": "Special Chicken Makhan Tikka Boti Naan",
     "genre": "Tikka Boti",
     "address": "Haq Bahu Naan Shop",
@@ -775,7 +775,7 @@ let details = [
   },
   {
     "id": "87",
-    "pic": "/tikka.jpg",
+    "pic": "/shawarma.jpg",
     "title": "Chicken Makhan Tikka Boti Naan",
     "genre": "Tikka Boti",
     "address": "Haq Bahu Naan Shop",
@@ -784,7 +784,7 @@ let details = [
   },
   {
     "id": "88",
-    "pic": "/tikka.jpg",
+    "pic": "/shawarma.jpg",
     "title": "Special Chicken Boti Tikka Naan",
     "genre": "Tikka Boti",
     "address": "Haq Bahu Naan Shop",
@@ -793,7 +793,7 @@ let details = [
   },
   {
     "id": "89",
-    "pic": "/tikka.jpg",
+    "pic": "/shawarma.jpg",
     "title": "Chicken Tikka Boti Naan",
     "genre": "Tikka Boti",
     "address": "Haq Bahu Naan Shop",
@@ -802,7 +802,7 @@ let details = [
   },
   {
     "id": "90",
-    "pic": "/kabab.jpg",
+    "pic": "/shawarma.jpg",
     "title": "Chicken Cheese Kabbab Roll",
     "genre": "Kabab Roll",
     "address": "Haq Bahu Naan Shop",
@@ -811,7 +811,7 @@ let details = [
   },
   {
     "id": "91",
-    "pic": "/kabab.jpg",
+    "pic": "/shawarma.jpg",
     "title": "Chicken Kabbab Roll",
     "genre": "Kabab Roll",
     "address": "Haq Bahu Naan Shop",
@@ -820,7 +820,7 @@ let details = [
   },
   {
     "id": "92",
-    "pic": "/pratha.jpg",
+    "pic": "/pratha2.jpg",
     "title": "Specail Makhan Pratha",
     "genre": "Pratha",
     "address": "Haq Bahu Naan Shop",
@@ -829,7 +829,7 @@ let details = [
   },
   {
     "id": "93",
-    "pic": "/pratha.jpg",
+    "pic": "/pratha2.jpg",
     "title": "Special Achari Pratha",
     "genre": "Pratha",
     "address": "Haq Bahu Naan Shop",
@@ -838,7 +838,7 @@ let details = [
   },
   {
     "id": "94",
-    "pic": "/pratha.jpg",
+    "pic": "/pratha1.jpg",
     "title": "Special Meetha Pratha",
     "genre": "Pratha",
     "address": "Haq Bahu Naan Shop",
@@ -856,8 +856,8 @@ let details = [
   },
   {
     "id": "96",
-    "pic": "/regular.jpg",
-    "title": "Prathe",
+    "pic": "/pratha.jpg",
+    "title": "Pratha",
     "genre": "Regular Items",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
@@ -865,7 +865,7 @@ let details = [
   },
   {
     "id": "97",
-    "pic": "/regular.jpg",
+    "pic": "/kulcha.jpg",
     "title": "Special Kulcha",
     "genre": "Regular Items",
     "address": "Haq Bahu Naan Shop",
@@ -874,7 +874,7 @@ let details = [
   },
   {
     "id": "98",
-    "pic": "/regular.jpg",
+    "pic": "/kulcha.jpg",
     "title": "Kulcha",
     "genre": "Regular Items",
     "address": "Haq Bahu Naan Shop",
@@ -883,7 +883,7 @@ let details = [
   },
   {
     "id": "99",
-    "pic": "/regular.jpg",
+    "pic": "/sada.jpg",
     "title": "Special Sada Naan",
     "genre": "Regular Items",
     "address": "Haq Bahu Naan Shop",
@@ -892,7 +892,7 @@ let details = [
   },
   {
     "id": "100",
-    "pic": "/regular.jpg",
+    "pic": "/sada.jpg",
     "title": "Sada Naan",
     "genre": "Regular Items",
     "address": "Haq Bahu Naan Shop",
@@ -901,7 +901,7 @@ let details = [
   },
   {
     "id": "101",
-    "pic": "/regular.jpg",
+    "pic": "/sadaa.jpg",
     "title": "Khamiri Roti",
     "genre": "Regular Items",
     "address": "Haq Bahu Naan Shop",
@@ -910,7 +910,7 @@ let details = [
   },
   {
     "id": "102",
-    "pic": "/side.jpg",
+    "pic": "/raita.jpg",
     "title": "Raita",
     "genre": "Side",
     "address": "Haq Bahu Naan Shop",

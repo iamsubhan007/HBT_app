@@ -1,11 +1,8 @@
 "use client"
-import Link from 'next/link'
 import React from 'react'
-import { FaArrowRightLong } from "react-icons/fa6";
 
 function Card({pic,title,address,id,description,genre,price}) {
   return (
-    <Link href={'/Product?id='+id}>
     <div className='bg-white rounded-lg opacity-90 hover:scale-105 hover:opacity-110 hover:shadow-2xl'>
     
         <img src={pic} className='w-full h-48 rounded-t-lg'></img>
@@ -27,7 +24,6 @@ function Card({pic,title,address,id,description,genre,price}) {
         </h3>
         </div>
 </div>
-</Link>
   )
 }
 export default Card 
