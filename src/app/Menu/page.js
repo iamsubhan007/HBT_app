@@ -37,14 +37,14 @@ function MenuPage() {
     const sideItems = details.filter((item) => item.genre === "Side");
 
 
-    const genres = ["All", "Special Items", "Mutton Naan", "Beef Qeema Naan", "Chicken Naan","Rogni Naan", "Aloo Wala Naan", "Besaan Wala Naan", "Tikka Boti", "Kabab Roll", "Pratha", "Side"];
+    const genres = ["All", "Regular Items", "Mutton Naan", "Beef Qeema Naan", "Chicken Naan","Rogni Naan", "Aloo Wala Naan", "Besaan Wala Naan", "Tikka Boti", "Kabab Roll", "Pratha", "Side"];
   return (
     <div className='min-h-screen flex flex-col items-center'>
         <Banner/>
         <div className='relative-inline-block w-full h-70 grid grid-cols-3 bg-cover bg-center bg-no-repeat mb-5'>
             <Link href ={"/"}>
-                <div className='text-white ml-5 pt-5 px-6 absolute top-2 left-0'>
-                    <IoMdArrowRoundBack size={20}/> Back
+                <div className='text-slate-950 ml-5 pt-5 px-6 absolute top-32 left-0 md:top-96 md:left-0'>
+                    <IoMdArrowRoundBack size={40}/>
                 </div>
             </Link>
         </div>
@@ -58,7 +58,7 @@ function MenuPage() {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
-      <div className="w-full overflow-x-auto mb-4 sticky top-1 z-50 bg-gray-950 flex items-center justify-center">
+      <div className="w-full overflow-x-auto mb-4 sticky top-1 z-50 bg-gray-950 flex">
         <div className="flex space-x-3 px-4 py-2">
           {genres.map((genre) => (
             <a
@@ -77,24 +77,7 @@ function MenuPage() {
         </div>
       </div>
 
-
-      
       <h1 id="All" className="w-[95%] p-2 md:p-4 bg-gradient-to-r from-gray-600 to-gray-700 font-bold rounded shadow text-opacity-80 text-white text-lg md:text-2xl mt-10">
-        Regular Items 🍽️
-      </h1>
-
-      <div className="grid sm:grid-cols-1 lg:grid-cols-4 rounded-lg gap-5 w-[80%] p-5">
-        {regularItems.length > 0 ? (
-          regularItems.map((event) => (
-              <Card key = {event.id} id={event.id} pic={event.pic} title={event.title} genre={event.genre} address={event.address} price={event.price} description={event.description}/>
-          ))
-        ) : (
-          <p className="text-center col-span-full text-gray-500">No regular items found.</p>
-        )}
-      </div>
-
-      
-      <h1 id="Special Items" className="w-[95%] p-2 md:p-4 bg-gradient-to-r from-gray-600 to-gray-700 font-bold rounded shadow text-opacity-80 text-white text-lg md:text-2xl mt-10">
         Special Items 🍽️
       </h1>
 
@@ -224,6 +207,18 @@ function MenuPage() {
           <p className="text-center col-span-full text-gray-500">No items found.</p>
         )}
       </div>
+      <h1 id="Regular Items" className="w-[95%] p-2 md:p-4 bg-gradient-to-r from-gray-600 to-gray-700 font-bold rounded shadow text-opacity-80 text-white text-lg md:text-2xl mt-10">
+        Regular Items 🍽️
+      </h1>
+      <div className="grid sm:grid-cols-1 lg:grid-cols-4 rounded-lg gap-5 w-[80%] p-5">
+        {regularItems.length > 0 ? (
+          regularItems.map((event) => (
+              <Card key = {event.id} id={event.id} pic={event.pic} title={event.title} genre={event.genre} address={event.address} price={event.price} description={event.description}/>
+          ))
+        ) : (
+          <p className="text-center col-span-full text-gray-500">No regular items found.</p>
+        )}
+      </div>
       <h1 id='Side' className="w-[95%] p-2 md:p-4 bg-gradient-to-r from-gray-600 to-gray-700 font-bold rounded shadow text-opacity-80 text-white text-lg md:text-2xl mt-10">
         Side Items 🍽️
       </h1>
@@ -235,17 +230,6 @@ function MenuPage() {
           ))
         ) : (
           <p className="text-center col-span-full text-gray-500">No side items found.</p>
-        )}
-      </div>
-
-
-      <div className="grid sm:grid-cols-1 lg:grid-cols-4 rounded-lg gap-5 w-[80%] p-5">
-        {filteredItems.length > 0 ? (
-          filteredItems.map((event) => (
-             <Card key = {event.id} id={event.id} pic={event.pic} title={event.title} genre={event.genre} address={event.address} price={event.price} description={event.description}/>
-            ))
-        ) : (
-          <p className="col-span-full text-center text-gray-500">No results found.</p>
         )}
       </div>
       <Footer/>

@@ -55,7 +55,7 @@ function Homepage() {
         />
       </div>
       {/* Genre Filter Bar*/}
-      <div className="w-full overflow-x-auto  sticky top-1 z-50 mb-4 bg-gray-950 flex items-center justify-center">
+      <div className="w-full md:w-full overflow-x-auto whitespace-nowrap sticky top-1 z-50 mb-4 bg-gray-950 flex">
         <div className="flex space-x-3 px-4 py-2">
           {genres.map((genre) => (
             <button
