@@ -85,7 +85,7 @@ let items = [
             id: "8",
             title: "Beef Naan",
             description: "Freshly Baked.",
-            pic: "/beef paratha naan .jpg",
+            pic: "/beef2.jpg",
             genre: "Beef",
             toggleItems: [
             { label: "Special Beef Cheese Makhan Rogni Naan - Rs. 670", link: "/Menu" },

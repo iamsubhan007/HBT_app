@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { AiOutlineBars } from "react-icons/ai"
@@ -11,6 +11,16 @@ import Footer from '@/components/footer'
 import FloatingTogglePanel from '@/components/floatingpanel'
 
 function Homepage() {
+  const [showChatMsg, setShowChatMsg] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowChatMsg(false);
+    }, 10000); // 10 seconds
+
+    return () => clearTimeout(timer); // cleanup on unmount
+  }, []);
+
   const [activeCardId, setActiveCardId] = useState(null);
   const [expanded, setExpanded] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
@@ -53,7 +63,22 @@ function Homepage() {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
+      </div> 
+      
+      <div className="fixed bottom-4 right-4 z-50 flex items-center space-x-2">
+        {showChatMsg && (
+          <span className="bg-gray-300 text-gray-900 text-md px-3 py-1 rounded shadow-lg animate-fade-in">
+            For Chat Support
+          </span>
+        )}
+        <Link href={"/Chat"}>
+        <img
+          src="/chatbot.png"
+          alt="Chat Support"
+          className="w-12 h-12 cursor-pointer"
+        /></Link>
       </div>
+
       {/* Genre Filter Bar*/}
       <div className="w-full md:w-full overflow-x-auto whitespace-nowrap sticky top-1 z-50 mb-4 bg-gray-950 flex">
         <div className="flex space-x-3 px-4 py-2">
@@ -120,8 +145,8 @@ function Homepage() {
       </div>
 
       <h1 className="w-[95%] p-2 md:p-4 bg-gradient-to-r from-yellow-500 to-red-950 font-bold rounded shadow text-opacity-80 text-red-950 text-lg md:text-2xl m-5">
-            {selectedGenre} Items 🥘
-        </h1>
+        {selectedGenre} Items 🥘
+      </h1>
 
       <div className="grid lg:grid-cols-4 sm:grid-cols-2 lg:w-[80%] w-[80%] h-full lg:items-center p-5">
         {filteredItems.length > 0 ? (

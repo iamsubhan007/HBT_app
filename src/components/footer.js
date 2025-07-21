@@ -33,9 +33,9 @@ function Footer() {
         <p className="text-sm mb-1 flex items-start gap-2 font-bold hover:underline cursor-pointer">
         <FaSquarePhone size={23} />
         <span>
-            Phone Numbers:<br />
-            +92 309-4130285<br />
-            +92 3334381858<br />
+            for Order Contact:<br />
+            03094130285<br />
+            03334381858<br />
         </span>
         </p>
         </div>
