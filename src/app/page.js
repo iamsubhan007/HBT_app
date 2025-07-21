@@ -32,7 +32,7 @@ function Homepage() {
     return matchesSearch && matchesGenre;
   });
   
-  const genres = ["All", "special", "Mutton", "Beef","Chicken", "Regular", "Pratha","Aloo", "Besaan", "Tikka Boti", "Kabab Roll", "Side"];
+  const genres = ["All", "Special", "Mutton", "Beef","Chicken", "Regular", "Pratha","Aloo", "Besaan", "Tikka Boti", "Kabab Roll", "Side"];
 
 
   return (
@@ -40,7 +40,7 @@ function Homepage() {
       <Banner/>
       <button
         onClick={() => setExpanded(!expanded)}
-        className="bg-gray-900 absolute top-2 right-2 text-xl hover:scale-110 px-6 py-3 rounded-full text-white hover:bg-gray-900 transition"
+        className="bg-gray-900 absolute top-2 right-2 text-sm md:text-xl hover:scale-110 px-6 py-3 rounded-full text-white hover:bg-gray-900 transition"
       >
         {expanded ? "Collapse" : <AiOutlineBars />}
       </button>
@@ -75,15 +75,15 @@ function Homepage() {
 
       {/* Dropdown Menu */}
       <div
-        className={`absolute top-16 right-2 w-64 bg-gray-900 text-white rounded-lg shadow-lg transition-all duration-300 ease-in-out overflow-hidden border border-gray-700 ${
-          expanded ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+        className={`absolute top-16 right-2 w-64 md:w-64 bg-gray-900 text-white rounded-lg shadow-lg transition-all duration-300 ease-in-out overflow-hidden border border-gray-700 ${
+          expanded ? "max-h-72 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
         <ul className="flex flex-col gap-3 p-4">
           {/* Menu Button */}
           <li>
             <Link href="/Menu">
-              <Button className="w-full py-2 text-white bg-gray-700 hover:bg-gray-800 transition rounded-lg">
+              <Button className="w-full py-1 md:py-2 text-white bg-gray-700 hover:bg-gray-800 transition rounded-lg">
                 Menu
               </Button>
             </Link>
@@ -92,9 +92,9 @@ function Homepage() {
           {/* Foodpanda Link */}
           <li>
             <Link href="https://www.foodpanda.pk/restaurant/w6kj/haq-bahu-naan-shop" target="_blank">
-              <div className="flex items-center gap-2 bg-gray-700 text-white px-4 py-2 rounded-lg hover:opacity-90 transition">
+              <div className="flex items-center gap-2 bg-gray-700 text-white px-2 p-1 rounded-lg hover:opacity-90 transition">
                 <span className="font-semibold text-sm">Available at Foodpanda</span>
-                <SiFoodpanda className="text-pink-500" size={24} />
+                <SiFoodpanda className="text-pink-500" size={20} />
               </div>
             </Link>
           </li>
@@ -103,7 +103,7 @@ function Homepage() {
             <a href="https://wa.me/923094130285" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="flex items-center gap-2 bg-gray-700 text-white px-4 py-2 rounded-lg hover:opacity-90 transition">
+              className="flex items-center gap-2 bg-gray-700 text-sm text-white px-3 py-2 rounded-lg hover:opacity-90 transition">
                 Chat with us on WhatsApp
             </a>
           </li>
@@ -126,7 +126,7 @@ function Homepage() {
       <div className="grid lg:grid-cols-4 sm:grid-cols-2 lg:w-[80%] w-[80%] h-full lg:items-center p-5">
         {filteredItems.length > 0 ? (
             filteredItems.map((event) => (
-              <div key={event.id} className="lg:w-full w-full flex flex-col items-center">
+              <div key={event.id} className="mr-2 flex flex-col items-center">
                 <Card
                   {...event}
                   isActive={activeCardId === event.id}

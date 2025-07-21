@@ -77,6 +77,14 @@ function MenuPage() {
         </div>
       </div>
 
+      <div>
+        <a href='/Haq-Bahu-MENU.pdf'
+        download={true}
+        className='bg-gray-700 font-semibold absolute right-2 md:right-5 text-gray-200 text-sm rounded-lg px-4 py-2 hover:opacity-90 transition'>
+          Download Menu
+        </a>
+      </div>
+
       <h1 id="All" className="w-[95%] p-2 md:p-4 bg-gradient-to-r from-gray-600 to-gray-700 font-bold rounded shadow text-opacity-80 text-white text-lg md:text-2xl mt-10">
         Special Items 🍽️
       </h1>

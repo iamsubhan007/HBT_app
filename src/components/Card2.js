@@ -6,7 +6,7 @@ function Card({ pic, title, id, description, genre, isActive, onClick }) {
   return (
     
     <div
-      className={`relative bg-white rounded-lg opacity-90 cursor-pointer mb-5 transition-all duration-300 ease-in-out 
+      className={`relative w-[100%] mr-5 bg-white rounded-lg opacity-90 cursor-pointer mb-5 transition-all duration-300 ease-in-out 
         ${isActive ? 'scale-110 opacity-100 shadow-2xl z-20' : 'hover:shadow-2xl'}`}
       onClick={onClick}
       >
