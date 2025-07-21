@@ -14,15 +14,26 @@ function Homepage() {
   const [activeCardId, setActiveCardId] = useState(null);
   const [expanded, setExpanded] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
+  const [selectedGenre, setSelectedGenre] = useState("All");
   const handleCardClick = (id) => {
     setActiveCardId((prev) => (prev === id ? null : id)); // toggle on/off
   };
   const activeCard = items.find((item) => item.id === activeCardId);
-  const filteredItems = items.filter((item) =>
-    item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    item.genre.toLowerCase().includes(searchTerm.toLowerCase())
-  );
-  const [showBox, setShowBox] = useState(true);
+  const filteredItems = items.filter((item) => {
+    const matchesSearch =
+      item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      item.genre.toLowerCase().includes(searchTerm.toLowerCase());
+  
+    const matchesGenre =
+      selectedGenre === "All"
+        ? true
+        : item.genre.toLowerCase() === selectedGenre.toLowerCase();
+  
+    return matchesSearch && matchesGenre;
+  });
+  
+  const genres = ["All", "special", "Mutton", "Beef","Chicken", "Regular", "Pratha","Aloo", "Besaan", "Tikka Boti", "Kabab Roll", "Side"];
+
 
   return (
     <div className='min-h-screen flex flex-col items-center'>
@@ -43,6 +54,24 @@ function Homepage() {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
+      {/* Genre Filter Bar*/}
+      <div className="w-full overflow-x-auto  sticky top-1 z-50 mb-4 bg-gray-950 flex items-center justify-center">
+        <div className="flex space-x-3 px-4 py-2">
+          {genres.map((genre) => (
+            <button
+              key={genre}
+              onClick={() => setSelectedGenre(genre)}
+              className={`px-4 py-2 rounded-full text-sm whitespace-nowrap transition-all duration-200
+                ${selectedGenre === genre
+                  ? "bg-red-700 text-white"
+                  : "bg-gray-600 text-gray-50 hover:bg-gray-300"}`}
+            >
+              {genre.charAt(0).toUpperCase() + genre.slice(1)}
+            </button>
+          ))}
+        </div>
+      </div>
+
 
       {/* Dropdown Menu */}
       <div
@@ -84,17 +113,17 @@ function Homepage() {
 
       <div className='flex flex-col items-center font-bold'>
         <Link href="/Menu">
-          <h1 className="w-40 p-4 bg-slate-950 rounded shadow text-white">
-            Show Menu
+          <h1 className="w-50 p-4 bg-slate-950 rounded shadow text-white">
+            Show Complete Menu
           </h1>
         </Link>
       </div>
 
       <h1 className="w-[95%] p-2 md:p-4 bg-gradient-to-r from-yellow-500 to-red-950 font-bold rounded shadow text-opacity-80 text-red-950 text-lg md:text-2xl m-5">
-            Special Items 🥘
+            {selectedGenre} Items 🥘
         </h1>
 
-      <div className="grid lg:grid-cols-4 sm:grid-cols-2 lg:w-[80%] w-full h-full lg:items-center p-5">
+      <div className="grid lg:grid-cols-4 sm:grid-cols-2 lg:w-[80%] w-[80%] h-full lg:items-center p-5">
         {filteredItems.length > 0 ? (
             filteredItems.map((event) => (
               <div key={event.id} className="lg:w-full w-full flex flex-col items-center">

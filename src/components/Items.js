@@ -4,35 +4,35 @@ let items = [
       title: "Nutella Naan",
       description: "Rs. 500 - Freshly Baked.",
       pic: "/Nutella.jpg",
-      genre: "Special Items"
+      genre: "Special"
     },
     {
       id: "2",
       title: "Tandoori Pizza",
       description: "Rs. 500 -Freshly Baked.",
       pic: "/pizza_naan.jpg",
-      genre: "Special Items"
+      genre: "Special"
     },
     {
       id: "3",
       title: "Tandoori Shawarma",
       description: "Rs. 400 - Freshly Baked.",
       pic: "/shawarma.jpg",
-      genre: "Special Items"
+      genre: "Special"
     },
     {
       id: "4",
       title: "Cheese Naan",
       description: "Rs. 400 - Freshly Baked.",
       pic: "/cheese.jpg",
-      genre: "Special Items"
+      genre: "Special"
     },
     {
       id: "5",
       title: "Mutton Naan",
       description: "Freshly Baked.",
       pic: "/beef paratha naan .jpg",
-      genre: "Mutton Naan",
+      genre: "Mutton",
       toggleItems: [
         { label: "Special Mutton Achaari Naan - Rs. 850", link: "/Menu" },
         { label: "Special Mutton Qeema Naan - Rs. 800", link: "/Menu" },
@@ -53,7 +53,7 @@ let items = [
           title: "Chicken Naan",
           description: "Freshly Baked.",
           pic: "/chicken naan.jpg",
-          genre: "Chicken Naan",
+          genre: "Chicken",
           toggleItems: [
             { label: "Special Chicken Cheese Makhan Rogni Naan - Rs. 670", link: "/Menu" },
             { label: "Special Chicken Achaari Makhan Rogni Naan - Rs. 620", link: "/Menu" },
@@ -86,7 +86,7 @@ let items = [
             title: "Beef Naan",
             description: "Freshly Baked.",
             pic: "/beef paratha naan .jpg",
-            genre: "Beef Naan",
+            genre: "Beef",
             toggleItems: [
             { label: "Special Beef Cheese Makhan Rogni Naan - Rs. 670", link: "/Menu" },
             { label: "Special Beef Achaari Makhan Rogni Naan - Rs. 620", link: "/Menu" },
@@ -138,7 +138,7 @@ let items = [
           title: "Aloo Wala Naan",
           description: "Freshly Baked.",
           pic: "/alooo nan.jpg",
-          genre: "Aloo Wala Naan",
+          genre: "Aloo",
           toggleItems: [
             { label: "Special Aloo Wala Naan - Rs. 150", link: "/Menu" },
             { label: "Aloo Wala Naan - Rs. 100", link: "/Menu" },
@@ -154,7 +154,7 @@ let items = [
           title: "Besaan Wala Naan",
           description: "Freshly Baked.",
           pic: "/baisan naan .png",
-          genre: "Besaan Wala Naan",
+          genre: "Besaan",
           toggleItems: [
             { label: "Besaan Wala Naan - Rs. 100", link: "/Menu" },
             { label: "Besaan Achaari Naan - Rs. 150", link: "/Menu" },
@@ -189,7 +189,7 @@ let items = [
           id: "14",
           title: "Pratha",
           description: "Served hot.",
-          pic: "/regular.jpg",
+          pic: "/pratha.jpg",
           genre: "Pratha",
           toggleItems: [
             { label: "Special Makhan Pratha - Rs. 160", link: "/Menu" },
@@ -203,7 +203,7 @@ let items = [
           title: "Regular Items",
           description: "Daily naan options.",
           pic: "/rogni garlic naan.jpg",
-          genre: "Regular Items",
+          genre: "Regular",
           toggleItems: [
             { label: "Prathe - Rs. 100", link: "/Menu" },
             { label: "Special Kulcha - Rs. 50", link: "/Menu" },
