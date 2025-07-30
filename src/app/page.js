@@ -43,7 +43,7 @@ function Homepage() {
     return matchesSearch && matchesGenre;
   });
   
-  const genres = ["All", "Special", "Mutton", "Beef","Chicken", "Regular", "Pratha","Aloo", "Besaan", "Tikka Boti", "Kabab Roll", "Side"];
+  const genres = ["All", "Special", "Mutton", "Beef","Chicken", "Regular","Rogni", "Pratha","Aloo", "Besaan", "Tikka Boti", "Kabab Roll", "Side"];
 
 
   return (
@@ -65,7 +65,7 @@ function Homepage() {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-      </div> 
+      </div>
       
       <div className="fixed bottom-4 right-4 z-50 flex items-center space-x-2">
         {showChatMsg && (
@@ -82,7 +82,7 @@ function Homepage() {
       </div>
 
       {/* Genre Filter Bar*/}
-      <div className="w-full md:w-full overflow-x-auto whitespace-nowrap sticky top-1 z-50 mb-4 bg-gray-950 flex">
+      <div className="w-full md:w-full overflow-x-auto whitespace-nowrap sticky top-1 z-20 mb-4 bg-gray-950 flex">
         <div className="flex space-x-3 px-4 py-2">
           {genres.map((genre) => (
             <button
@@ -137,14 +137,13 @@ function Homepage() {
         </ul>
       </div>
       
-
       <div className='flex flex-col items-center font-bold'>
         <Link href="/Menu">
           <h1 className="w-50 p-4 bg-slate-950 rounded shadow text-white">
             Show Complete Menu
           </h1>
         </Link>
-      </div>
+      </div> 
 
       <h1 className="w-[95%] p-2 md:p-4 bg-gradient-to-r from-yellow-500 to-red-950 font-bold rounded shadow text-opacity-80 text-red-950 text-lg md:text-2xl m-5">
         {selectedGenre} Items 🥘

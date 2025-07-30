@@ -6,6 +6,7 @@ import Card from '@/components/Card1'
 import { details } from '@/components/ItemDetails';
 import Banner from '@/components/banner';
 import Footer from '@/components/footer'
+import ImageCarousel from '@/components/ImageCarousel';
 
 
 function MenuPage() {
@@ -36,6 +37,7 @@ function MenuPage() {
   return (
     <div className='min-h-screen flex flex-col items-center'>
         <Banner/>
+        <ImageCarousel/>
         <div className='relative-inline-block w-full h-70 bg-cover bg-center bg-no-repeat mb-5'>
             <Link href ={"/"}>
                 <h1 className=' bg-slate-900 rounded-lg flex text-white p-1 m-2 absolute top-23 left-0 md:top-96 md:left-0'>
@@ -44,7 +46,7 @@ function MenuPage() {
                 </h1>
             </Link>
         </div>
-      <div className="w-full overflow-x-auto mt-6 mb-4 sticky top-1 z-50 bg-gray-950 flex">
+      <div className="w-full overflow-x-auto mt-6 mb-4 sticky top-1 z-20 bg-gray-950 flex">
         <div className="flex space-x-3 px-4 py-2">
           {genres.map((genre) => (
             <a

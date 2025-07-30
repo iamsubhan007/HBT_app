@@ -70,7 +70,7 @@ export default function Banner() {
   };
 
   return (
-    <div className="relative w-full h-[200px] md:w-full md:h-full overflow-hidden bg-black">
+    <div className="relative w-full h-[100px] md:w-full md:h-[400px] overflow-hidden bg-black">
       {images.map((image, index) => (
         <div
           key={index}
@@ -82,7 +82,7 @@ export default function Banner() {
           <img
             src={image.url}
             alt={`Slide ${index}`}
-            className="w-full h-full object-contain"
+            className="w-full h-full"
           />
         </div>
       ))}

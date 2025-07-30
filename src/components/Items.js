@@ -118,7 +118,7 @@ let items = [
           title: "Rogni Naan",
           description: "Freshly Baked.",
           pic: "/Rogni.jpg",
-          genre: "Rogni Naan",
+          genre: "Rogni",
           toggleItems: [
             { label: "Special Milky Makhan Rogni Naan - Rs. 160", link: "/Menu" },
             { label: "Special Kalwangi Rogni Naan - Rs. 120", link: "/Menu" },
