@@ -44,16 +44,6 @@ function MenuPage() {
                 </h1>
             </Link>
         </div>
-
-        {/* <div className="m-6 rounded-md bg-gray-200 text-gray-700 shadow-lg">
-        <input
-          type="text"
-          placeholder="Search by title or genre..."
-          className="w-full px-2 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-      </div> */}
       <div className="w-full overflow-x-auto mt-6 mb-4 sticky top-1 z-50 bg-gray-950 flex">
         <div className="flex space-x-3 px-4 py-2">
           {genres.map((genre) => (
@@ -260,7 +250,7 @@ function MenuPage() {
       </div>
       <div className="fixed bottom-4 right-4 z-50 flex items-center space-x-2">
         {showChatMsg && (
-          <span className="bg-gray-300 text-gray-900 text-md px-3 py-1 rounded shadow-lg animate-fade-in">
+          <span className="bg-gray-300 text-gray-900 text-md md:text-xl px-3 py-1 rounded shadow-lg animate-fade-in">
             For Chat Support
           </span>
         )}
@@ -268,7 +258,7 @@ function MenuPage() {
         <img
           src="/chatbot.png"
           alt="Chat Support"
-          className="w-12 h-12 cursor-pointer"
+          className="w-12 h-12 md:w-36 md:h-36 cursor-pointer"
         /></Link>
       </div>
       <Footer/>

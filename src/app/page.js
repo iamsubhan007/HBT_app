@@ -67,7 +67,7 @@ function Homepage() {
       
       <div className="fixed bottom-4 right-4 z-50 flex items-center space-x-2">
         {showChatMsg && (
-          <span className="bg-gray-300 text-gray-900 text-md px-3 py-1 rounded shadow-lg animate-fade-in">
+          <span className="bg-gray-300 text-gray-900 text-md md:text-xl px-3 py-1 rounded shadow-lg animate-fade-in">
             For Chat Support
           </span>
         )}
@@ -75,7 +75,7 @@ function Homepage() {
         <img
           src="/chatbot.png"
           alt="Chat Support"
-          className="w-12 h-12 cursor-pointer"
+          className="w-12 h-12 md:w-24 md:h-24 cursor-pointer"
         /></Link>
       </div>
 
