@@ -9,6 +9,7 @@ import { items } from '@/components/Items'
 import Banner from '@/components/banner'
 import Footer from '@/components/footer'
 import FloatingTogglePanel from '@/components/floatingpanel'
+import ImageCarousel from '@/components/ImageCarousel'
 
 function Homepage() {
   const [showChatMsg, setShowChatMsg] = useState(true);
@@ -48,6 +49,7 @@ function Homepage() {
   return (
     <div className='min-h-screen flex flex-col items-center'>
       <Banner/>
+      <ImageCarousel/>
       <button
         onClick={() => setExpanded(!expanded)}
         className="bg-gray-900 absolute top-2 right-2 text-sm md:text-xl hover:scale-110 px-6 py-3 rounded-full text-white hover:bg-gray-900 transition"
