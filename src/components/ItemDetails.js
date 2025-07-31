@@ -36,15 +36,6 @@ let details = [
     "price": 400
   },
   {
-    "id": "5",
-    "pic": "/beef paratha naan .jpg",
-    "title": "Special Mutton Achaari Naan",
-    "genre": "Mutton Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 850
-  },
-  {
     "id": "6",
     "pic": "/beef paratha naan .jpg",
     "title": "Special Mutton Qeema Naan",
@@ -54,49 +45,13 @@ let details = [
     "price": 800
   },
   {
-    "id": "7",
+    "id": "5",
     "pic": "/beef paratha naan .jpg",
-    "title": "Special Mutton Cheese Makhan Rogni Naan",
+    "title": "Special Mutton Achaari Naan",
     "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 1170
-  },
-  {
-    "id": "8",
-    "pic": "/beef paratha naan .jpg",
-    "title": "Special Mutton Achaari Makhan Rogni Naan",
-    "genre": "Mutton Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 1020
-  },
-  {
-    "id": "9",
-    "pic": "/beef paratha naan .jpg",
-    "title": "Special Mutton Makhan Rogni Naan",
-    "genre": "Mutton Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 970
-  },
-  {
-    "id": "10",
-    "pic": "/beef paratha naan .jpg",
-    "title": "Special Mutton Cheese Rogni Naan",
-    "genre": "Mutton Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 1070
-  },
-  {
-    "id": "11",
-    "pic": "/beef paratha naan .jpg",
-    "title": "Special Mutton Achaari Rogni Naan",
-    "genre": "Mutton Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 920
+    "price": 850
   },
   {
     "id": "12",
@@ -108,13 +63,22 @@ let details = [
     "price": 870
   },
   {
-    "id": "13",
+    "id": "15",
     "pic": "/beef paratha naan .jpg",
-    "title": "Special Mutton Cheese Makhan Naan",
+    "title": "Special Mutton Makhan Rogni Naan",
     "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 1100
+    "price": 900
+  },
+  {
+    "id": "11",
+    "pic": "/beef paratha naan .jpg",
+    "title": "Special Mutton Achaari Rogni Naan",
+    "genre": "Mutton Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 920
   },
   {
     "id": "14",
@@ -126,13 +90,13 @@ let details = [
     "price": 950
   },
   {
-    "id": "15",
+    "id": "9",
     "pic": "/beef paratha naan .jpg",
     "title": "Special Mutton Makhan Rogni Naan",
     "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 900
+    "price": 970
   },
   {
     "id": "16",
@@ -144,211 +108,40 @@ let details = [
     "price": 1000
   },
   {
-    "id": "17",
-    "pic": "/chicken naan.jpg",
-    "title": "Special Chicken Cheese Makhan Rogni Naan",
-    "genre": "Chicken Naan",
+    "id": "8",
+    "pic": "/beef paratha naan .jpg",
+    "title": "Special Mutton Achaari Makhan Rogni Naan",
+    "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 670
+    "price": 1020
   },
   {
-    "id": "18",
-    "pic": "/chicken naan.jpg",
-    "title": "Special Chicken Achaari Makhan Rogni Naan",
-    "genre": "Chicken Naan",
+    "id": "10",
+    "pic": "/beef paratha naan .jpg",
+    "title": "Special Mutton Cheese Rogni Naan",
+    "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 620
+    "price": 1070
   },
   {
-    "id": "19",
-    "pic": "/chicken naan.jpg",
-    "title": "Special Chicken Makhan Rogni Naan",
-    "genre": "Chicken Naan",
+    "id": "13",
+    "pic": "/beef paratha naan .jpg",
+    "title": "Special Mutton Cheese Makhan Naan",
+    "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 570
+    "price": 1100
   },
   {
-    "id": "20",
-    "pic": "/chicken naan.jpg",
-    "title": "Chicken Cheese Makhan Rogni Naan",
-    "genre": "Chicken Naan",
+    "id": "7",
+    "pic": "/beef paratha naan .jpg",
+    "title": "Special Mutton Cheese Makhan Rogni Naan",
+    "genre": "Mutton Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 540
-  },
-  {
-    "id": "21",
-    "pic": "/chicken naan.jpg",
-    "title": "Chicken Achaari Makhan Rogni Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 470
-  },
-  {
-    "id": "22",
-    "pic": "/chicken naan.jpg",
-    "title": "Chicken Makhan Rogni Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 420
-  },
-  {
-    "id": "23",
-    "pic": "/chicken naan.jpg",
-    "title": "Special Chicken Cheese Rogni Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 570
-  },
-  {
-    "id": "24",
-    "pic": "/chicken naan.jpg",
-    "title": "Special Chicken Achaari Rogni Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 420
-  },
-  {
-    "id": "25",
-    "pic": "/chicken naan.jpg",
-    "title": "Special Chicken Rogni Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 470
-  },
-  {
-    "id": "26",
-    "pic": "/chicken naan.jpg",
-    "title": "Chicken Cheese Rogni Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 440
-  },
-  {
-    "id": "27",
-    "pic": "/chicken naan.jpg",
-    "title": "Chicken Achaari Rogni Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 370
-  },
-  {
-    "id": "28",
-    "pic": "/chicken naan.jpg",
-    "title": "Chicken Rogni Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 320
-  },
-  {
-    "id": "29",
-    "pic": "/chicken naan.jpg",
-    "title": "Special Chicken Cheese Makhan Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 600
-  },
-  {
-    "id": "30",
-    "pic": "/chicken naan.jpg",
-    "title": "Special Chicken Achaari Makhan Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 550
-  },
-  {
-    "id": "31",
-    "pic": "/chicken naan.jpg",
-    "title": "Special Chicken Makhan Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 500
-  },
-  {
-    "id": "32",
-    "pic": "/chicken naan.jpg",
-    "title": "Chicken Cheese Makhan Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 470
-  },
-  {
-    "id": "33",
-    "pic": "/chicken naan.jpg",
-    "title": "Chicken Achaari Makhan Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 400
-  },
-  {
-    "id": "34",
-    "pic": "/chicken naan.jpg",
-    "title": "Chicken Makhan Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 350
-  },
-  {
-    "id": "35",
-    "pic": "/chicken naan.jpg",
-    "title": "Special Chicken Cheese Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 500
-  },
-  {
-    "id": "36",
-    "pic": "/chicken naan.jpg",
-    "title": "Special Chicken Achaari Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 450
-  },
-  {
-    "id": "37",
-    "pic": "/chicken naan.jpg",
-    "title": "Special Chicken Qeema Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 400
-  },
-  {
-    "id": "38",
-    "pic": "/chicken naan.jpg",
-    "title": "Chicken Cheese Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 370
-  },
-  {
-    "id": "39",
-    "pic": "/chicken naan.jpg",
-    "title": "Chicken Achaari Naan",
-    "genre": "Chicken Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 300
+    "price": 1170
   },
   {
     "id": "40",
@@ -360,211 +153,211 @@ let details = [
     "price": 250
   },
   {
-    "id": "41",
-    "pic": "/beef2.jpg",
-    "title": "Special Beef Cheese Makhan Rogni Naan",
-    "genre": "Beef Qeema Naan",
+    "id": "39",
+    "pic": "/chicken naan.jpg",
+    "title": "Chicken Achaari Naan",
+    "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 670
+    "price": 300
   },
   {
-    "id": "42",
-    "pic": "/beef.jpg",
-    "title": "Special Beef Achaari Makhan Rogni Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 620
-  },
-  {
-    "id": "43",
-    "pic": "/beef2.jpg",
-    "title": "Special Beef Makhan Rogni Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 570
-  },
-  {
-    "id": "44",
-    "pic": "/beef2.jpg",
-    "title": "Beef Cheese Makhan Rogni Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 540
-  },
-  {
-    "id": "45",
-    "pic": "/beef.jpg",
-    "title": "Beef Achaari Makhan Rogni Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 470
-  },
-  {
-    "id": "46",
-    "pic": "/beef2.jpg",
-    "title": "Beef Makhan Rogni Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 420
-  },
-  {
-    "id": "47",
-    "pic": "/beef2.jpg",
-    "title": "Special Beef Cheese Rogni Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 570
-  },
-  {
-    "id": "48",
-    "pic": "/beef.jpg",
-    "title": "Special Beef Achaari Rogni Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 420
-  },
-  {
-    "id": "49",
-    "pic": "/beef2.jpg",
-    "title": "Special Beef Rogni Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 470
-  },
-  {
-    "id": "50",
-    "pic": "/beef2.jpg",
-    "title": "Beef Cheese Rogni Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 440
-  },
-  {
-    "id": "51",
-    "pic": "/beef.jpg",
-    "title": "Beef Achaari Rogni Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 370
-  },
-  {
-    "id": "52",
-    "pic": "/beef2.jpg",
-    "title": "Beef Rogni Naan",
-    "genre": "Beef Qeema Naan",
+    "id": "28",
+    "pic": "/chicken naan.jpg",
+    "title": "Chicken Rogni Naan",
+    "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
     "price": 320
   },
   {
-    "id": "53",
-    "pic": "/beef2.jpg",
-    "title": "Special Beef Cheese Makhan Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 600
-  },
-  {
-    "id": "54",
-    "pic": "/beef.jpg",
-    "title": "Special Beef Achaari Makhan Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 550
-  },
-  {
-    "id": "55",
-    "pic": "/beef2.jpg",
-    "title": "Special Beef Makhan Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 500
-  },
-  {
-    "id": "56",
-    "pic": "/beef2.jpg",
-    "title": "Beef Cheese Makhan Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 470
-  },
-  {
-    "id": "57",
-    "pic": "/beef.jpg",
-    "title": "Beef Achaari Makhan Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 400
-  },
-  {
-    "id": "58",
-    "pic": "/beef2.jpg",
-    "title": "Beef Makhan Naan",
-    "genre": "Beef Qeema Naan",
+    "id": "34",
+    "pic": "/chicken naan.jpg",
+    "title": "Chicken Makhan Naan",
+    "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
     "price": 350
   },
   {
-    "id": "59",
-    "pic": "/beef2.jpg",
-    "title": "Special Beef Cheese Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 500
-  },
-  {
-    "id": "60",
-    "pic": "/beef.jpg",
-    "title": "Special Beef Achaari Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 450
-  },
-  {
-    "id": "61",
-    "pic": "/qeema.jpg",
-    "title": "Special Beef Qeema Naan",
-    "genre": "Beef Qeema Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 400
-  },
-  {
-    "id": "62",
-    "pic": "/qeema.jpg",
-    "title": "Beef Cheese Naan",
-    "genre": "Beef Qeema Naan",
+    "id": "27",
+    "pic": "/chicken naan.jpg",
+    "title": "Chicken Achaari Rogni Naan",
+    "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
     "price": 370
   },
   {
-    "id": "63",
-    "pic": "/beef.jpg",
-    "title": "Beef Achaari Naan",
-    "genre": "Beef Qeema Naan",
+    "id": "38",
+    "pic": "/chicken naan.jpg",
+    "title": "Chicken Cheese Naan",
+    "genre": "Chicken Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 300
+    "price": 370
+  },
+  {
+    "id": "33",
+    "pic": "/chicken naan.jpg",
+    "title": "Chicken Achaari Makhan Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 400
+  },
+  {
+    "id": "37",
+    "pic": "/chicken naan.jpg",
+    "title": "Special Chicken Qeema Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 400
+  },
+  {
+    "id": "22",
+    "pic": "/chicken naan.jpg",
+    "title": "Chicken Makhan Rogni Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 420
+  },
+  {
+    "id": "24",
+    "pic": "/chicken naan.jpg",
+    "title": "Special Chicken Achaari Rogni Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 420
+  },
+  {
+    "id": "26",
+    "pic": "/chicken naan.jpg",
+    "title": "Chicken Cheese Rogni Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 440
+  },
+  {
+    "id": "36",
+    "pic": "/chicken naan.jpg",
+    "title": "Special Chicken Achaari Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 450
+  },
+  {
+    "id": "21",
+    "pic": "/chicken naan.jpg",
+    "title": "Chicken Achaari Makhan Rogni Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 470
+  },
+  {
+    "id": "25",
+    "pic": "/chicken naan.jpg",
+    "title": "Special Chicken Rogni Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 470
+  },
+  {
+    "id": "32",
+    "pic": "/chicken naan.jpg",
+    "title": "Chicken Cheese Makhan Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 470
+  },
+  {
+    "id": "31",
+    "pic": "/chicken naan.jpg",
+    "title": "Special Chicken Makhan Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 500
+  },
+  {
+    "id": "35",
+    "pic": "/chicken naan.jpg",
+    "title": "Special Chicken Cheese Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 500
+  },
+  {
+    "id": "30",
+    "pic": "/chicken naan.jpg",
+    "title": "Special Chicken Achaari Makhan Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 550
+  },
+  {
+    "id": "20",
+    "pic": "/chicken naan.jpg",
+    "title": "Chicken Cheese Makhan Rogni Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 540
+  },
+  {
+    "id": "23",
+    "pic": "/chicken naan.jpg",
+    "title": "Special Chicken Cheese Rogni Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 570
+  },
+  {
+    "id": "19",
+    "pic": "/chicken naan.jpg",
+    "title": "Special Chicken Makhan Rogni Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 570
+  },
+  {
+    "id": "29",
+    "pic": "/chicken naan.jpg",
+    "title": "Special Chicken Cheese Makhan Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 600
+  },
+  {
+    "id": "18",
+    "pic": "/chicken naan.jpg",
+    "title": "Special Chicken Achaari Makhan Rogni Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 620
+  },
+  {
+    "id": "17",
+    "pic": "/chicken naan.jpg",
+    "title": "Special Chicken Cheese Makhan Rogni Naan",
+    "genre": "Chicken Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 670
   },
   {
     "id": "64",
@@ -576,13 +369,229 @@ let details = [
     "price": 250
   },
   {
-    "id": "65",
-    "pic": "/rogni.jpg",
-    "title": "Special Milky Makhan Rogni Naan",
+    "id": "63",
+    "pic": "/beef.jpg",
+    "title": "Beef Achaari Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 300
+  },
+  {
+    "id": "52",
+    "pic": "/beef2.jpg",
+    "title": "Beef Rogni Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 320
+  },
+  {
+    "id": "58",
+    "pic": "/beef2.jpg",
+    "title": "Beef Makhan Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 350
+  },
+  {
+    "id": "51",
+    "pic": "/beef.jpg",
+    "title": "Beef Achaari Rogni Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 370
+  },
+  {
+    "id": "62",
+    "pic": "/qeema.jpg",
+    "title": "Beef Cheese Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 370
+  },
+  {
+    "id": "57",
+    "pic": "/beef.jpg",
+    "title": "Beef Achaari Makhan Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 400
+  },
+  {
+    "id": "61",
+    "pic": "/qeema.jpg",
+    "title": "Special Beef Qeema Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 400
+  },
+  {
+    "id": "46",
+    "pic": "/beef2.jpg",
+    "title": "Beef Makhan Rogni Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 420
+  },
+  {
+    "id": "48",
+    "pic": "/beef.jpg",
+    "title": "Special Beef Achaari Rogni Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 420
+  },
+  {
+    "id": "50",
+    "pic": "/beef2.jpg",
+    "title": "Beef Cheese Rogni Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 440
+  },
+  {
+    "id": "60",
+    "pic": "/beef.jpg",
+    "title": "Special Beef Achaari Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 450
+  },
+  {
+    "id": "45",
+    "pic": "/beef.jpg",
+    "title": "Beef Achaari Makhan Rogni Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 470
+  },
+  {
+    "id": "49",
+    "pic": "/beef2.jpg",
+    "title": "Special Beef Rogni Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 470
+  },
+  {
+    "id": "56",
+    "pic": "/beef2.jpg",
+    "title": "Beef Cheese Makhan Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 470
+  },
+  {
+    "id": "55",
+    "pic": "/beef2.jpg",
+    "title": "Special Beef Makhan Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 500
+  },
+  {
+    "id": "59",
+    "pic": "/beef2.jpg",
+    "title": "Special Beef Cheese Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 500
+  },
+  {
+    "id": "44",
+    "pic": "/beef2.jpg",
+    "title": "Beef Cheese Makhan Rogni Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 540
+  },
+  {
+    "id": "54",
+    "pic": "/beef.jpg",
+    "title": "Special Beef Achaari Makhan Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 550
+  },
+  {
+    "id": "43",
+    "pic": "/beef2.jpg",
+    "title": "Special Beef Makhan Rogni Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 570
+  },
+  {
+    "id": "47",
+    "pic": "/beef2.jpg",
+    "title": "Special Beef Cheese Rogni Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 570
+  },
+  {
+    "id": "53",
+    "pic": "/beef2.jpg",
+    "title": "Special Beef Cheese Makhan Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 600
+  },
+  {
+    "id": "42",
+    "pic": "/beef.jpg",
+    "title": "Special Beef Achaari Makhan Rogni Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 620
+  },
+  {
+    "id": "41",
+    "pic": "/beef2.jpg",
+    "title": "Special Beef Cheese Makhan Rogni Naan",
+    "genre": "Beef Qeema Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 670
+  },
+  {
+    "id": "75",
+    "pic": "/Rogni.jpg",
+    "title": "Half Rogni Naan",
     "genre": "Rogni Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 160
+    "price": 60
+  },
+  {
+    "id": "74",
+    "pic": "/Rogni.jpg",
+    "title": "Special Milky Rogni Naan",
+    "genre": "Rogni Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 100
   },
   {
     "id": "66",
@@ -612,24 +621,6 @@ let details = [
     "price": 120
   },
   {
-    "id": "69",
-    "pic": "/garlic.jpg",
-    "title": "Special Garlic Makhan Rogni Naan",
-    "genre": "Rogni Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 180
-  },
-  {
-    "id": "70",
-    "pic": "/kalwanji.jpg",
-    "title": "Special Kalwangi Makhan Rogni Naan",
-    "genre": "Rogni Naan",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 180
-  },
-  {
     "id": "71",
     "pic": "/zeera.jpg",
     "title": "Special Zeree Wala Rogni Naan",
@@ -657,31 +648,31 @@ let details = [
     "price": 120
   },
   {
-    "id": "74",
-    "pic": "/Rogni.jpg",
-    "title": "Special Milky Rogni Naan",
+    "id": "65",
+    "pic": "/rogni.jpg",
+    "title": "Special Milky Makhan Rogni Naan",
     "genre": "Rogni Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 100
+    "price": 160
   },
   {
-    "id": "75",
-    "pic": "/Rogni.jpg",
-    "title": "Half Rogni Naan",
+    "id": "69",
+    "pic": "/garlic.jpg",
+    "title": "Special Garlic Makhan Rogni Naan",
     "genre": "Rogni Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 60
+    "price": 180
   },
   {
-    "id": "76",
-    "pic": "/alooo nan.jpg",
-    "title": "Special Aloo Wala Naan",
-    "genre": "Aloo Wala Naan",
+    "id": "70",
+    "pic": "/kalwanji.jpg",
+    "title": "Special Kalwangi Makhan Rogni Naan",
+    "genre": "Rogni Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 150
+    "price": 180
   },
   {
     "id": "77",
@@ -693,22 +684,22 @@ let details = [
     "price": 100
   },
   {
-    "id": "78",
+    "id": "76",
     "pic": "/alooo nan.jpg",
-    "title": "Special Aloo Makhan Cheese Naan",
+    "title": "Special Aloo Wala Naan",
     "genre": "Aloo Wala Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 300
+    "price": 150
   },
   {
-    "id": "79",
+    "id": "82",
     "pic": "/beef.jpg",
-    "title": "Special Aloo Makhan Achaari Naan",
+    "title": "Special Aloo Achaari Naan",
     "genre": "Aloo Wala Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 220
+    "price": 180
   },
   {
     "id": "80",
@@ -720,6 +711,15 @@ let details = [
     "price": 200
   },
   {
+    "id": "79",
+    "pic": "/beef.jpg",
+    "title": "Special Aloo Makhan Achaari Naan",
+    "genre": "Aloo Wala Naan",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 220
+  },
+  {
     "id": "81",
     "pic": "/alooo nan.jpg",
     "title": "Special Aloo Cheese Naan",
@@ -729,13 +729,13 @@ let details = [
     "price": 250
   },
   {
-    "id": "82",
-    "pic": "/beef.jpg",
-    "title": "Special Aloo Achaari Naan",
+    "id": "78",
+    "pic": "/alooo nan.jpg",
+    "title": "Special Aloo Makhan Cheese Naan",
     "genre": "Aloo Wala Naan",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 180
+    "price": 300
   },
   {
     "id": "83",
@@ -765,13 +765,13 @@ let details = [
     "price": 200
   },
   {
-    "id": "86",
+    "id": "89",
     "pic": "/shawarma.jpg",
-    "title": "Special Chicken Makhan Tikka Boti Naan",
+    "title": "Chicken Tikka Boti Naan",
     "genre": "Tikka Boti",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 550
+    "price": 300
   },
   {
     "id": "87",
@@ -792,22 +792,13 @@ let details = [
     "price": 450
   },
   {
-    "id": "89",
+    "id": "86",
     "pic": "/shawarma.jpg",
-    "title": "Chicken Tikka Boti Naan",
+    "title": "Special Chicken Makhan Tikka Boti Naan",
     "genre": "Tikka Boti",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 300
-  },
-  {
-    "id": "90",
-    "pic": "/shawarma.jpg",
-    "title": "Chicken Cheese Kabbab Roll",
-    "genre": "Kabab Roll",
-    "address": "Haq Bahu Naan Shop",
-    "description": "Freshly Baked.",
-    "price": 200
+    "price": 550
   },
   {
     "id": "91",
@@ -819,13 +810,22 @@ let details = [
     "price": 120
   },
   {
-    "id": "92",
-    "pic": "/pratha2.jpg",
-    "title": "Specail Makhan Pratha",
+    "id": "90",
+    "pic": "/shawarma.jpg",
+    "title": "Chicken Cheese Kabbab Roll",
+    "genre": "Kabab Roll",
+    "address": "Haq Bahu Naan Shop",
+    "description": "Freshly Baked.",
+    "price": 200
+  },
+  {
+    "id": "95",
+    "pic": "/pratha.jpg",
+    "title": "Specail Pratha",
     "genre": "Pratha",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 160
+    "price": 100
   },
   {
     "id": "93",
@@ -846,31 +846,31 @@ let details = [
     "price": 150
   },
   {
-    "id": "95",
-    "pic": "/pratha.jpg",
-    "title": "Specail Pratha",
+    "id": "92",
+    "pic": "/pratha2.jpg",
+    "title": "Specail Makhan Pratha",
     "genre": "Pratha",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 100
+    "price": 160
   },
   {
-    "id": "96",
-    "pic": "/pratha.jpg",
-    "title": "Pratha",
+    "id": "100",
+    "pic": "/sada.jpg",
+    "title": "Sada Naan",
     "genre": "Regular Items",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 100
+    "price": 25
   },
   {
-    "id": "97",
-    "pic": "/kulcha.jpg",
-    "title": "Special Kulcha",
+    "id": "101",
+    "pic": "/sadaa.jpg",
+    "title": "Khamiri Roti",
     "genre": "Regular Items",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 50
+    "price": 25
   },
   {
     "id": "98",
@@ -891,22 +891,22 @@ let details = [
     "price": 45
   },
   {
-    "id": "100",
-    "pic": "/sada.jpg",
-    "title": "Sada Naan",
+    "id": "97",
+    "pic": "/kulcha.jpg",
+    "title": "Special Kulcha",
     "genre": "Regular Items",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 25
+    "price": 50
   },
   {
-    "id": "101",
-    "pic": "/sadaa.jpg",
-    "title": "Khamiri Roti",
+    "id": "96",
+    "pic": "/pratha.jpg",
+    "title": "Pratha",
     "genre": "Regular Items",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
-    "price": 25
+    "price": 100
   },
   {
     "id": "102",
