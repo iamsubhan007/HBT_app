@@ -102,7 +102,8 @@ function Homepage() {
 
       {/* Dropdown Menu */}
       <div
-        className={`absolute top-16 right-2 w-64 md:w-64 bg-gray-900 text-white rounded-lg shadow-lg transition-all duration-300 ease-in-out overflow-hidden border border-gray-700 ${
+        className={`absolute top-16 right-2 w-64 md:w-64 bg-gray-900 text-white rounded-lg shadow-lg 
+        transition-all duration-300 ease-in-out overflow-hidden border border-gray-700 z-30 ${
           expanded ? "max-h-72 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
