@@ -821,7 +821,7 @@ let details = [
   {
     "id": "95",
     "pic": "/pratha.jpg",
-    "title": "Specail Pratha",
+    "title": "special Pratha",
     "genre": "Pratha",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
@@ -848,7 +848,7 @@ let details = [
   {
     "id": "92",
     "pic": "/pratha2.jpg",
-    "title": "Specail Makhan Pratha",
+    "title": "special Makhan Pratha",
     "genre": "Pratha",
     "address": "Haq Bahu Naan Shop",
     "description": "Freshly Baked.",
