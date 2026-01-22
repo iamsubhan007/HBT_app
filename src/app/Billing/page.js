@@ -1,7 +1,7 @@
 // app/billing/page.js
 'use client';
 
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const DEFAULT_ITEMS = [
     { id: 1, name: "Nutella", price: 500 },
