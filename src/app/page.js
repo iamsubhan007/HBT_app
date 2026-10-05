@@ -1,9 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { Button } from '@/components/ui/button'
-import { AiOutlineBars } from "react-icons/ai"
-import { SiFoodpanda } from "react-icons/si"
+import { Search, UtensilsCrossed } from 'lucide-react'
 import Card from '@/components/Card2'
 import { items } from '@/components/Items'
 import Banner from '@/components/banner'
@@ -17,156 +15,143 @@ function Homepage() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowChatMsg(false);
-    }, 10000); // 10 seconds
-
-    return () => clearTimeout(timer); // cleanup on unmount
+    }, 10000);
+    return () => clearTimeout(timer);
   }, []);
 
   const [activeCardId, setActiveCardId] = useState(null);
-  const [expanded, setExpanded] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedGenre, setSelectedGenre] = useState("All");
+
   const handleCardClick = (id) => {
-    setActiveCardId((prev) => (prev === id ? null : id)); // toggle on/off
+    setActiveCardId((prev) => (prev === id ? null : id));
   };
+
   const activeCard = items.find((item) => item.id === activeCardId);
+
   const filteredItems = items.filter((item) => {
     const matchesSearch =
       item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
       item.genre.toLowerCase().includes(searchTerm.toLowerCase());
-  
     const matchesGenre =
-      selectedGenre === "All"
-        ? true
-        : item.genre.toLowerCase() === selectedGenre.toLowerCase();
-  
+      selectedGenre === "All" ? true : item.genre.toLowerCase() === selectedGenre.toLowerCase();
     return matchesSearch && matchesGenre;
   });
-  
-  const genres = ["All", "Special", "Mutton", "Beef","Chicken", "Regular","Rogni", "Pratha","Aloo", "Besaan", "Tikka Boti", "Kabab Roll", "Side"];
 
+  const genres = ["All", "Special", "Mutton", "Beef", "Chicken", "Regular", "Rogni", "Pratha", "Aloo", "Besaan", "Tikka Boti", "Kabab Roll", "Side"];
 
   return (
-    <div className='min-h-screen flex flex-col items-center'>
-      <Banner/>
-      <ImageCarousel/>
-      <button
-        onClick={() => setExpanded(!expanded)}
-        className="bg-gray-900 absolute top-2 right-2 text-sm md:text-xl hover:scale-110 px-6 py-3 rounded-full text-white hover:bg-gray-900 transition"
-      >
-        {expanded ? "Collapse" : <AiOutlineBars />}
-      </button>
+    <div className="min-h-screen flex flex-col bg-background">
+      <Banner />
+      <ImageCarousel />
 
-      <div className="m-6 rounded-md bg-gray-200 text-gray-700 shadow-lg">
-        <input
-          type="text"
-          placeholder="Search by title or genre..."
-          className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-      </div>
-      
-      <div className="fixed bottom-4 right-4 z-50 flex items-center space-x-2">
-        {showChatMsg && (
-          <span className="bg-gray-300 text-gray-900 text-md md:text-xl px-3 py-1 rounded shadow-lg animate-fade-in">
-            For Chat Support
-          </span>
-        )}
-        <Link href={"/Chat"}>
-        <img
-          src="/chatbot.png"
-          alt="Chat Support"
-          className="w-12 h-12 md:w-24 md:h-24 cursor-pointer"
-        /></Link>
+      {/* Search bar */}
+      <div className="bg-background px-4 pt-5 pb-3">
+        <div className="max-w-xl mx-auto relative">
+          <Search
+            className="absolute left-3.5 top-1/2 -translate-y-1/2 text-zinc-400 pointer-events-none"
+            size={16}
+          />
+          <input
+            type="text"
+            placeholder="Search items or categories..."
+            className="w-full pl-10 pr-4 py-2.5 bg-white border border-zinc-200 rounded-full text-sm text-zinc-800 placeholder-zinc-400
+              focus:outline-none focus:ring-2 focus:ring-red-600/25 focus:border-red-600 transition-all shadow-sm"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+        </div>
       </div>
 
-      {/* Genre Filter Bar*/}
-      <div className="w-full md:w-full overflow-x-auto whitespace-nowrap sticky top-1 z-20 mb-4 bg-gray-950 flex">
-        <div className="flex space-x-3 px-4 py-2">
+      {/* Genre filter bar — sticky below navbar (top-14 = 56px navbar height) */}
+      <div className="w-full overflow-x-auto sticky top-14 z-20 bg-zinc-950 border-b border-zinc-800/70 scrollbar-none">
+        <div className="flex gap-2 px-4 py-2.5 min-w-max">
           {genres.map((genre) => (
             <button
               key={genre}
               onClick={() => setSelectedGenre(genre)}
-              className={`px-4 py-2 rounded-full text-sm whitespace-nowrap transition-all duration-200
+              className={`px-3.5 py-1.5 rounded-full text-xs font-medium whitespace-nowrap transition-all duration-200
                 ${selectedGenre === genre
-                  ? "bg-red-700 text-white"
-                  : "bg-gray-600 text-gray-50 hover:bg-gray-300"}`}
+                  ? "bg-red-700 text-white shadow-sm"
+                  : "bg-zinc-800 text-zinc-300 hover:bg-zinc-700 hover:text-white"
+                }`}
             >
-              {genre.charAt(0).toUpperCase() + genre.slice(1)}
+              {genre}
             </button>
           ))}
         </div>
       </div>
 
+      {/* Items section */}
+      <div className="flex-1 bg-background">
+        {/* Section header */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-7 pb-4 flex items-end justify-between">
+          <div>
+            <h2 className="text-xl sm:text-2xl font-bold text-zinc-900">
+              {selectedGenre === "All" ? "All Items" : `${selectedGenre} Items`}
+            </h2>
+            <p className="text-xs text-zinc-400 mt-0.5">
+              {filteredItems.length} item{filteredItems.length !== 1 ? "s" : ""} available
+            </p>
+          </div>
+          <Link
+            href="/Menu"
+            className="flex items-center gap-1.5 text-sm font-medium text-red-700 hover:text-red-600 border border-red-700/40 hover:border-red-600 hover:bg-red-50 px-4 py-1.5 rounded-full transition-all duration-150"
+          >
+            <UtensilsCrossed size={14} />
+            Full Menu
+          </Link>
+        </div>
 
-      {/* Dropdown Menu */}
-      <div
-        className={`absolute top-16 right-2 w-64 md:w-64 bg-gray-900 text-white rounded-lg shadow-lg 
-        transition-all duration-300 ease-in-out overflow-hidden border border-gray-700 z-30 ${
-          expanded ? "max-h-72 opacity-100" : "max-h-0 opacity-0"
-        }`}
-      >
-        <ul className="flex flex-col gap-3 p-4">
-          {/* Menu Button */}
-          <li>
-            <Link href="/Menu">
-              <Button className="w-full py-1 md:py-2 text-white bg-gray-700 hover:bg-gray-800 transition rounded-lg">
-                Menu
-              </Button>
-            </Link>
-          </li>
-
-          {/* Foodpanda Link */}
-          <li>
-            <Link href="https://www.foodpanda.pk/restaurant/w6kj/haq-bahu-naan-shop" target="_blank">
-              <div className="flex items-center gap-2 bg-gray-700 text-white px-2 p-1 rounded-lg hover:opacity-90 transition">
-                <span className="font-semibold text-sm">Available at Foodpanda</span>
-                <SiFoodpanda className="text-pink-500" size={20} />
-              </div>
-            </Link>
-          </li>
-
-          <li>
-            <a href="https://wa.me/923094130285" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="flex items-center gap-2 bg-gray-700 text-sm text-white px-3 py-2 rounded-lg hover:opacity-90 transition">
-                Chat with us on WhatsApp
-            </a>
-          </li>
-        </ul>
-      </div>
-      
-      <div className='flex flex-col items-center font-bold'>
-        <Link href="/Menu">
-          <h1 className="w-50 p-4 bg-slate-950 rounded shadow text-white">
-            Show Complete Menu
-          </h1>
-        </Link>
-      </div> 
-
-      <h1 className="w-[95%] p-2 md:p-4 bg-gradient-to-r from-yellow-500 to-red-950 font-bold rounded shadow text-opacity-80 text-red-950 text-lg md:text-2xl m-5">
-        {selectedGenre} Items 🥘
-      </h1>
-
-      <div className="grid lg:grid-cols-4 sm:grid-cols-2 lg:w-[80%] w-[80%] h-full lg:items-center p-5">
-        {filteredItems.length > 0 ? (
-            filteredItems.map((event) => (
-              <div key={event.id} className="mr-2 flex flex-col items-center">
+        {/* Items grid */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 pb-16">
+          {filteredItems.length > 0 ? (
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-4">
+              {filteredItems.map((event) => (
                 <Card
+                  key={event.id}
                   {...event}
                   isActive={activeCardId === event.id}
                   onClick={() => handleCardClick(event.id)}
                 />
-              </div>
-            ))
+              ))}
+            </div>
           ) : (
-            <p className="text-center col-span-full text-gray-500">No items found.</p>
+            /* Empty state */
+            <div className="py-24 flex flex-col items-center text-center">
+              <div className="w-16 h-16 bg-zinc-100 rounded-full flex items-center justify-center mb-4">
+                <Search size={28} className="text-zinc-400" />
+              </div>
+              <p className="text-base font-semibold text-zinc-600">No items found</p>
+              <p className="text-sm text-zinc-400 mt-1">Try a different search term or category</p>
+              <button
+                onClick={() => { setSearchTerm(""); setSelectedGenre("All"); }}
+                className="mt-4 text-sm text-red-700 hover:text-red-600 font-medium underline underline-offset-2"
+              >
+                Clear filters
+              </button>
+            </div>
           )}
+        </div>
       </div>
 
-      {/* Floating toggle panel */}
+      {/* Floating chat button */}
+      <div className="fixed bottom-5 right-5 z-50 flex items-center gap-2">
+        {showChatMsg && (
+          <span className="bg-zinc-900 text-white text-xs px-3 py-1.5 rounded-full shadow-lg animate-fade-in whitespace-nowrap">
+            Chat Support
+          </span>
+        )}
+        <Link href="/Chat">
+          <img
+            src="/chatbot.png"
+            alt="Chat Support"
+            className="w-14 h-14 cursor-pointer hover:scale-110 transition-transform drop-shadow-lg"
+          />
+        </Link>
+      </div>
+
+      {/* Floating toggle panel (shown when a card is active) */}
       {activeCard && activeCard.toggleItems && (
         <FloatingTogglePanel
           toggleItems={activeCard.toggleItems}
@@ -174,7 +159,7 @@ function Homepage() {
         />
       )}
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }

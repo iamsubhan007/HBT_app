@@ -1,34 +1,41 @@
 "use client"
 import React from 'react'
 
-function Card({pic,title,address,id,description,genre,price}) {
-    const words = title.split(" ");
-    const firstLine = words.slice(0, 3).join(" ");
-    const secondLine = words.slice(3).join(" ");
+function Card({ pic, title, address, id, description, genre, price }) {
   return (
-    <div className='bg-white rounded-lg opacity-90 hover:scale-105 hover:opacity-110 hover:shadow-2xl'>
-    
-        <img src={pic} className='w-full h-32 rounded-t-lg'></img>
-        <div className='flex flex-col ml-2 m-2 gap-2'>
-        <h1 className='font-bold text-lg break-words whitespace-normal'>
-            {/* {title} */}
-            {firstLine}
-            {secondLine && <><br />{secondLine}</>}
-        </h1>
-        <h5 className='font-bold text-sm'>
-            Price: Rs. {price}
-        </h5>
-        <h4 className='text-sm'>
-            Genre: {genre}
-        </h4>
-        <h2 className='text-gray-600 text-sm'>
-            {description}
-        </h2>
-        <h3 className='text-gray-600 text-sm'>
-            {address}
+    <div className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md border border-zinc-100 transition-all duration-300 hover:-translate-y-0.5 min-w-[155px] max-w-[200px] flex-shrink-0">
+      {/* Image */}
+      <div className="relative overflow-hidden">
+        <img
+          src={pic}
+          alt={title}
+          className="w-full h-32 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        {price && (
+          <span className="absolute top-2 right-2 bg-red-700 text-white text-[11px] font-bold px-2 py-0.5 rounded-full shadow-sm">
+            Rs.{price}
+          </span>
+        )}
+      </div>
+
+      {/* Content */}
+      <div className="p-3 flex flex-col gap-1.5">
+        <h3 className="font-semibold text-sm text-zinc-900 leading-snug line-clamp-2">
+          {title}
         </h3>
-        </div>
-</div>
-  )
+        {genre && (
+          <span className="text-[10px] text-zinc-500 bg-zinc-100 border border-zinc-200 px-2 py-0.5 rounded-full w-fit">
+            {genre}
+          </span>
+        )}
+        {description && (
+          <p className="text-[11px] text-zinc-400 line-clamp-2 leading-snug">
+            {description}
+          </p>
+        )}
+      </div>
+    </div>
+  );
 }
-export default Card 
+
+export default Card;
